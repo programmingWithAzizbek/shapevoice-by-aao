@@ -1,5 +1,18 @@
 import React from "react";
 import "./App.css";
+import image1 from "./assets/images/header-color-image.svg";
+import image2 from "./assets/images/box-shadow-image1.svg";
+import image3 from "./assets/images/box-shadow-image2.svg";
+import image4 from "./assets/images/dropdown-icon.svg";
+import image5 from "./assets/images/play-button-image.svg";
+import image6 from "./assets/images/lamp-icon.svg";
+import image7 from "./assets/images/pen-and-line-icon.svg";
+import image8 from "./assets/images/print-icon.svg";
+import oracle from "./assets/images/company-1.svg";
+import morpheus from "./assets/images/company-2.svg";
+import samsung from "./assets/images/company-3.svg";
+import monday from "./assets/images/company-4.svg";
+import segment from "./assets/images/company-5.svg";
 
 function App() {
   return (
@@ -7,17 +20,17 @@ function App() {
       <header className="header">
         <img
           className="background-image"
-          src="../src/assets/images/header-color-image.svg"
+          src={image1}
           alt="Background color Image"
         />
         <img
           className="box-shadow-image1"
-          src="../src/assets/images/box-shadow-image1.svg"
+          src={image2}
           alt="Box Shadow Image"
         />
         <img
           className="box-shadow-image2"
-          src="../src/assets/images/box-shadow-image2.svg"
+          src={image3}
           alt="Box Shadow Image"
         />
         <div className="container header__inner">
@@ -33,19 +46,13 @@ function App() {
                   <a className="menu__link menu__link--one" href="#">
                     Product
                   </a>
-                  <img
-                    src="../src/assets/images/dropdown-icon.svg"
-                    alt="DropDown icon"
-                  />
+                  <img src={image4} alt="DropDown icon" />
                 </li>
                 <li className="menu__item menu__item--two">
                   <a className="menu__link menu__link--two" href="#">
                     Template
                   </a>
-                  <img
-                    src="../src/assets/images/dropdown-icon.svg"
-                    alt="DropDown icon"
-                  />
+                  <img src={image4} alt="DropDown icon" />
                 </li>
                 <li className="menu__item menu__item--three">
                   <a className="menu__link menu__link--three" href="#">
@@ -81,10 +88,7 @@ function App() {
               <div className="primary__buttons">
                 <button>Our Process</button>
                 <button>
-                  <img
-                    src="../src/assets/images/play-button-image.svg"
-                    alt="Play Button Image"
-                  />
+                  <img src={image5} alt="Play Button Image" />
                   <span>See How It Works</span>
                 </button>
               </div>
@@ -113,28 +117,19 @@ function App() {
           </strong>
           <div className="companies__wrapper">
             <a href="https://www.oracle.com/" target="_blank">
-              <img src="../src/assets/images/company-1.svg" alt="Oracle Logo" />
+              <img src={oracle} alt="Oracle Logo" />
             </a>
             <a href="https://morpheusdata.com/" target="_blank">
-              <img
-                src="../src/assets/images/company-2.svg"
-                alt="Morpheus Logo"
-              />
+              <img src={morpheus} alt="Morpheus Logo" />
             </a>
             <a href="https://www.samsung.com/us/" target="_blank">
-              <img
-                src="../src/assets/images/company-3.svg"
-                alt="Samsung Logo"
-              />
+              <img src={samsung} alt="Samsung Logo" />
             </a>
             <a href="https://monday.com/" target="_blank">
-              <img src="../src/assets/images/company-4.svg" alt="Monday Logo" />
+              <img src={monday} alt="Monday Logo" />
             </a>
             <a href="https://segment.com/" target="_blank">
-              <img
-                src="../src/assets/images/company-5.svg"
-                alt="Segment Logo"
-              />
+              <img src={segment} alt="Segment Logo" />
             </a>
           </div>
         </div>
@@ -157,7 +152,7 @@ function App() {
         <div className="container process__inner">
           <div className="process__card process__card1">
             <div>
-              <img src="../src/assets/images/lamp-icon.svg" alt="Lamp Icon" />
+              <img src={image6} alt="Lamp Icon" />
             </div>
             <strong>Led Ask Possible Mistress</strong>
             <p>
@@ -168,10 +163,7 @@ function App() {
           </div>
           <div className="process__card process__card2">
             <div>
-              <img
-                src="../src/assets/images/pen-and-line-icon.svg"
-                alt="Pen and Line Icon"
-              />
+              <img src={image7} alt="Pen and Line Icon" />
             </div>
             <strong>Elegance Eat Likewise</strong>
             <p>
@@ -182,7 +174,7 @@ function App() {
           </div>
           <div className="process__card process__card3">
             <div>
-              <img src="../src/assets/images/print-icon.svg" alt="Print Icon" />
+              <img src={image8} alt="Print Icon" />
             </div>
             <strong>Message Oram Nothing</strong>
             <p>
